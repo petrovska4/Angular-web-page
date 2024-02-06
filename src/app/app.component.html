@@ -1,0 +1,120 @@
+<!-- <app-header></app-header>
+<a routerLink="/footer">Test2</a>
+
+<router-outlet></router-outlet> -->
+<body>
+  <div id="preheader" class="preheader">
+    <p class="discount">
+      Fall collection discount! Free shipping for order over 99$!
+    </p>
+  </div>
+  
+  <header id="header" class="header">
+    <div id="title" class="title">
+      <a>
+        <p>
+          <i>Pleure</i>
+        </p>
+        <p style="font-size: small;">
+          <i>all your wishes in one place</i>
+        </p>
+      </a>
+    </div>
+    <div id="main" class="main">
+      <div id="search" style="border-bottom: thin solid #72613881;">
+        <input type="search" class="searchInput" placeholder="Search for items...">
+      </div>
+      <div id="menu" class="menu">
+        <a routerLink="clothes">
+          <div id="clothes" class="categories underline">
+            Clothes
+          </div>
+        </a>
+        <a routerLink="home-items">
+          <div id="homeItems" class="categories underline">
+            Home Items
+          </div>
+        </a>
+        <a routerLink="fragrances">
+          <div id="fragrances" class="categories underline">
+            Fragrances
+          </div>
+        </a>
+        <a routerLink="contact-form">
+          <div id="contactForm" class="categories underline">
+            Contact form
+          </div>
+        </a>
+        <a routerLink="about-us">
+          <div class="categories underline">
+            About Us
+          </div>
+        </a>
+      </div>
+    </div>
+    <div id="icons" class="padding12px">
+      <div>
+        <svg id="list" class="lnr lnr-cart" ><use xlink:href="#lnr-cart"></use>
+          <title>Shopping Cart</title>
+        </svg>
+        <p id="productsCount" style="display: inline;"></p>
+      </div>
+      <div id="login/register" style="display: flex; flex-direction: row; margin-top: 10px;">
+        <svg id="usr" class="lnr lnr-user" style="padding-right: 8px;"><use xlink:href="#lnr-user"></use></svg>
+        <p id="user" class="underline">Login/Register</p>
+      </div>
+    </div>
+  </header>
+  
+  <section>
+    <router-outlet></router-outlet>
+  </section>
+  
+  <footer id="footer" class="footer">
+    <div id="about" class="footerBox">
+      <p class="footerTitles">About Pleure</p>
+      <p>About Us</p>
+    </div>
+    <div id="shipping" class="footerBox">
+      <p class="footerTitles">Shipping</p>
+      <p>Holiday Shipping</p>
+      <p>Same-Day Delivery</p>
+      <p>Phone Orders</p>
+    </div>
+    <div id="visitUs" class="footerBox">
+      <p class="footerTitles">Visit Us</p>
+      <div class="icons">
+        <svg class="lnr lnr-map-marker"><use xlink:href="#lnr-map-marker"></use></svg>
+        <p>Store Locator</p>
+      </div>
+    </div>
+    <div id="clientCare" class="footerBox">
+      <p class="footerTitles">Follow Us</p>
+      <div class="icons">
+        <img src="images/instagram.png">
+        <p>Instagram</p>
+      </div>
+      <div class="icons">
+        <img src="images/facebook.png">
+        <p>Facebook</p>
+      </div>
+      <div class="icons">
+        <img src="images/pinterest.png">
+        <p>Pinterest</p>
+      </div>
+      <div class="icons">
+        <img src="images/linkedin.png">
+        <p>LinkedIn</p>
+      </div>
+    </div>
+    <div id="newsletter" class="footerBox">
+      <p class="footerTitles">Join Our Newsletter</p>
+      <p style="color: #6d6b67; font-size: small; margin-bottom: 10px;">By signing up, you agree that your email address will be used only to send you marketing newsletters and information about Pleure, events and offers. You can unsubscribe at any time by clicking on the unsubscribe link in each newsletter.</p>
+      <form>
+        <input type="email" placeholder="Enter Your email address" required>
+        <input type="submit" value="SIGN UP">
+      </form>
+    </div>
+  </footer>  
+</body>
+

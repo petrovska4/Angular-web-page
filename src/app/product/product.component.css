@@ -1,0 +1,17 @@
+.product {
+  margin: 0px 20px 20px 20px;
+  padding: 10px;
+  border: thick solid #72613852;
+  text-align: center;
+}
+
+img {
+  height: 450px;
+  width: 300px;
+  border-radius: 5%;
+  object-fit: cover;
+}
+
+.product:hover {
+  background-color: #72613852;
+}

@@ -1,0 +1,10 @@
+<div style="min-height: 500px; overflow: scroll;">
+  <div id="body" class="body">
+    <div class="container">
+    <app-product
+      *ngFor="let prod of products"
+      [product]="prod">
+    </app-product>
+    </div>
+  </div>
+</div>
