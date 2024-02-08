@@ -1,9 +1,16 @@
+:host {
+  display: block;
+  height: 84vh;
+}
+body {
+  height: 84%;
+}
 .body {
   display: flex;
   flex-direction: row;
   padding-left: 25%;
   margin: 0px;
-  height: 84%;
+  height: 100%;
   font-family: 'Courier New', Courier, monospace;
   background-image: url(../images/background1.jpg);
   background-repeat: no-repeat;
