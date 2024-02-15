@@ -1,7 +1,9 @@
 :host {
   display: block;
-  height: 100vh;
+  height: 100svh;
   position: relative;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 body, html {
@@ -54,7 +56,7 @@ body, html {
 }
 .title {
   padding: 24px 24px 0px 0px;
-  font-size: xx-large;
+  font-size: 2em;
 }
 p {
   margin: 0px;
@@ -66,7 +68,7 @@ p {
   padding: 12px 12px 0px 12px;
 }
 .searchInput {    
-  background: url(images/search.png);
+  background: url(../assets/images/search.png);
   background-repeat: no-repeat;
   background-size: 15px;
   background-position-y: center;
@@ -93,20 +95,6 @@ p {
 .categories:hover {
   color: #c2a45f;
 }
-#heart:hover, #usr:hover, #list:hover {
-  transform: scale(1.5);
-}
-.lnr {
-  display: inline-block;
-  fill: currentColor;
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.05em;
-}
-#signInDialog {
-  border: thin solid #726138;
-  border-radius: 6px;
-}
 a {
   text-decoration: none;
   color: inherit;
@@ -125,6 +113,11 @@ a {
 .footerBox {
   width: 20%;
 }
+iframe {
+  width: 80%;
+  height: 80%;
+  margin-top: 2vh;
+}
 .footerTitles {
   margin-bottom: 10px;
   font-size: large;
@@ -137,4 +130,7 @@ a {
   height: 15px;
   width: 15px;
   margin-right: 5px;
+}
+.padding12px {
+  padding: 12px;
 }

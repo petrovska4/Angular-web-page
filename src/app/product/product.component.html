@@ -2,11 +2,13 @@
   <p>The picture can not be shown</p>
 </ng-template>
 <div class="product">
-  <img (mouseenter)="hover()" (mouseleave)="unhover()" [src]="isHovered ? product.picUrl2 : product.picUrl1">
-  <div>
-    {{ product.name }}
-  </div>
-  <div>
-    {{ '$' + product.price }}
+  <img id="pic" [src]="product.picUrl1">
+  <div class="description">
+    <div class="p">
+      {{ product.name }}
+    </div>
+    <div class="p">
+      {{ '$' + product.price }}
+    </div>
   </div>
 </div>

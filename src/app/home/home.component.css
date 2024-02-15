@@ -4,6 +4,7 @@
 }
 body {
   height: 84%;
+  overflow: hidden;
 }
 .body {
   display: flex;
@@ -12,7 +13,7 @@ body {
   margin: 0px;
   height: 100%;
   font-family: 'Courier New', Courier, monospace;
-  background-image: url(../images/background1.jpg);
+  background-image: url(../../assets/images/background1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -34,7 +35,7 @@ body {
   animation-fill-mode: forwards;
 }
 #body:has(#op1:hover) {
-  background-image: url(../images/background1.jpg);
+  background-image: url(../../assets/images/background1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   transition: background-image 1s;
@@ -47,7 +48,7 @@ body {
   animation-fill-mode: forwards;
 }
 #body:has(#op2:hover) {
-  background-image: url(../images/background11.jpg);
+  background-image: url(../../assets/images/background11.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   transition: background-image 1s;
@@ -60,7 +61,7 @@ body {
   animation-fill-mode: forwards;
 }
 #body:has(#op3:hover) {
-  background-image: url(../images/background10.jpg);
+  background-image: url(../../assets/images/background10.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   transition: background-image 1s;
@@ -73,7 +74,7 @@ body {
   animation-fill-mode: forwards;
 }
 #body:has(#op4:hover) {
-  background-image: url(../images/background12.jpg);
+  background-image: url(../../assets/images/background12.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   transition: background-image 1s;

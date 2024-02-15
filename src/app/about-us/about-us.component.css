@@ -5,7 +5,7 @@
   border-bottom: thin solid #72613852;
 }
 .img1 {
-  background-image: url("../images/aboutUs.jpg");
+  background-image: url("../../assets/images/aboutUs.jpg");
   background-size: cover;
   height: 75vh;
   max-width: 100%;
